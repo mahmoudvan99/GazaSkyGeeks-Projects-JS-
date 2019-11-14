@@ -1,0 +1,32 @@
+
+body{
+  background-color: black;
+}
+#container{
+width:1000px;
+height: 1000px;
+margin: 80px auto;
+
+
+
+/* border: 5px black solid;
+overflow: hidden; */
+/* display: inline-block; */
+
+  /* grid-template-columns: auto auto auto auto;
+  background-color: #3e2723;
+  padding: 10px;
+  border-radius: 10px; */
+}
+
+.details{
+  
+    display:inline-block;
+  
+    /* background-color: #80cbc4;
+   border: 1px solid black;
+  padding: 20px;
+  width: calc(100%/16); */
+  
+    
+    }
