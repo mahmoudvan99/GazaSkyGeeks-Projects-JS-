@@ -3,24 +3,12 @@ var grid = prompt("Please enter number", "16");
 var myButton =document.createElement('button');
 myButton.textContent = 'Click me to Reset the  Grid';
 myButton.style.margin ="20px 600px";
-myButton.style.color = "red";
+myButton.style.color = "blue";
 container.insertAdjacentElement('beforebegin', myButton);
 myButton.addEventListener('click',function(){
   window.location.reload();
 });
 
-// function divsNumber(num) {
-//   var myDivs = document.querySelectorAll('div');
-//   for (let k=1; k<= myDivs.length-1; k++) {
-//     container.removeChild(myDivs[k]);
-      
-//   }
-//   grid =prompt("Please enter number", "16");
-//   addSquare(grid);
-// };
-
-
-////////////////////////////////////////////////////////////
 function addSquare(){
  
     var square= document.createElement('div');
@@ -49,6 +37,3 @@ for(let t=0;t<Math.pow(grid,2) ; t++){
    ele[t].addEventListener("mouseover", function()
    {ele[t].style.backgroundColor=getRandomColor();
   })}
-
-  /////////////////////////////////
-  
